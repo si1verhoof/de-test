@@ -11,9 +11,9 @@ gulp.task('clean', function (cb) {
 });
  
 gulp.task('less', function () {
-    return gulp.src('./less/**/*.less')
+    return gulp.src('./less/*.less')
         .pipe(less())
-        .pipe(gulp.dest('./public/css'))
+        .pipe(gulp.dest('./css'))
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false

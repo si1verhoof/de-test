@@ -1,0 +1,31 @@
+{
+  "name": "de-test",
+  "version": "1.0.0",
+  "description": "digital-element test",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-less": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/si1verhoof/de-test.git"
+  },
+  "keywords": [
+    "dit"
+  ],
+  "author": "Ruslan Saifutdinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/si1verhoof/de-test/issues"
+  },
+  "homepage": "https://github.com/si1verhoof/de-test#readme"
+}
